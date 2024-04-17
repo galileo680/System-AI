@@ -29,6 +29,18 @@ The project consists of several main components:
 - `Models` - Data model classes.
 - `Services` - Services performing specific business logic tasks.
 
+## API Endpoints
+
+Below is a table of the main API endpoints available in the system:
+
+| Method | Endpoint                | Description                                       |
+|--------|-------------------------|---------------------------------------------------|
+| GET    | `/api/algorithms`       | Retrieves all available algorithms.               |
+| POST   | `/api/algorithms/run`   | Runs a selected algorithm with specified settings.|
+| POST   | `/api/algorithms/add`   | Adds a new algorithm to the system.               |
+| PUT    | `/api/algorithms/update/{name}` | Updates an existing algorithm.             |
+| DELETE | `/api/algorithms/delete/{name}` | Deletes an existing algorithm. 
+
 ## Requirements
 
 To run the project, you need:
