@@ -23,11 +23,14 @@ The project is implemented in C# using:
 ## Project Structure
 
 The project consists of several main components:
-- `API` - REST API interface allowing interaction with the system.
-- `Core` - Business logic responsible for managing algorithms and experiments.
-- `Data Access` - Data access abstraction layer.
-- `Models` - Data model classes.
-- `Services` - Services performing specific business logic tasks.
+- `Algorithms`: Contains compiled `.dll` files for each metaheuristic algorithm module.
+- `Functions`: Includes compiled `.dll` files for different fitness function modules.
+- `Controllers`: Manages the request handling for the API endpoints.
+- `Interfaces`: Defines contracts for services and algorithm behaviors.
+- `Properties`: Configuration settings for the project.
+- `Services`: Core business logic for managing algorithms and fitness functions.
+- `Util`: Utility classes and helper functions.
+- `Program.cs`: The entry point of the application.
 
 ## API Endpoints
 
@@ -52,9 +55,8 @@ To run the project, you need:
 1. Clone the repository or download the project files.
 2. Open the project in your chosen IDE.
 3. Install the required dependencies using NuGet.
-4. Configure the database in the `appsettings.json` configuration file.
-5. Build and run the project.
-6. Access to the API is possible through a browser or API client (e.g., Postman).
+4. Build and run the project.
+5. Access to the API is possible through a browser or API client (e.g., Postman).
 
 
 ## License
